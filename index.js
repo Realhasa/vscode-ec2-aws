@@ -23,5 +23,5 @@ app.get('/home', (req, res) => {
 
 const port = 4000;
 app.listen(port, () => {
-    console.log(`Server listen at port ${port}`)
+    console.log(`Server listen at port ${port} and this Rial's home....`)
 })
