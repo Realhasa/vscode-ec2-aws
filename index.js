@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 
 
 app.get('/home', (req, res) => {
-    const subjects = ['DevOps', 'CC', 'SPM', 'CD', 'CNS','prasad', 'cns lab', 'cc lab', 'and this is Rial from Bangladesh to save the World'];
+    const subjects = ['Hello world','DevOps', 'CC', 'SPM', 'CD', 'CNS','prasad', 'cns lab', 'cc lab', 'and this is Rial from Bangladesh to save the World'];
     res.render('sample.pug', {'sub': subjects})
 })
 
